@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <style>
+            .gradient{
+                background-image :linear-gradient(to bottom right, #084148,#aa0071)
+            }
+        </style>
+    
+    </head>
+    <body>
+        <section class="w-screen mx-auto px-4">
+            <nav class="flex flex-wrap p-6 justify-between "> <!--untuk terbungkus semua-->
+                <div class="flex flex-shrink-0 mr-6"> <!--flex untuk mencegah penyusutan-->
+                    <img src="logo_.png" class="h-30 w-40 mr-2">
+                </div>
+                <div class="block lg:hidden">
+                    <a class="flex items-center px-3 py-2 rounded border border-indigo-400 text-indigo-500 hover:border-indigo-700">
+                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                        <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                            About me
+                        </a>
+                        <a href="#recent" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                            Recent work
+                        </a>
+                        <a href="#skill" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                            Framework skill
+                        </a>
+                </div>
+                <div>
+                    <a href="#" class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
+                        Contact me
+                    </a>
+                </div>`
+            </nav>
+        </section>
+
+        <section class="w-screen mx-auto py-4 gradient">
+            <div class="px-16 py-8 ">
+                <h1 class="w-full text-5xl font-bold text-left text-white">About me</h1>
+                <div class="mb-4">
+                    <div class="bg-pink-500 w-2/4 opacity-75 rounded h-1" >
+                    </div>
+                    <div class="shadow-lg rounded-3xl">
+                    <h2 class="text-5xl font-bold mb-2 text-white text-left">Hi I'm <span class="text-red-700">Septian</span></h2>
+                    <h3 class="text-2xl  mb-2 text-white text-left">I am a <span class="text-red-700">web</span>developer</h3>
+                    </div>
+                    <div class="w-full">
+                        <div class="px-4 py-4">
+                            <img src="revisi.png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md: grid-cols-3 bg-white  m-16 rounded-lg text-center">
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-pink-500 m-3">
+
+                </div>
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-blue-500 m-3">
+
+                </div>
+                <div class="max-w-sm shadow-lg px-4 py-4 bg-purple-500 m-3">
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </section>
+        <section class="w-screen mx-auto py-4 bg-green-400 h-40">skill framework</section>
+        <section class="w-screen mx-auto py-4 bg-indigo-400 h-40">recent work</section>
+        <section class="w-screen mx-auto py-4 bg-blue-400 h-40">contact me</section>
+        <section class="w-screen mx-auto py-4 bg-red-300 h-40">footer</section>
+
+
+
+
+    </body>
+</html>
